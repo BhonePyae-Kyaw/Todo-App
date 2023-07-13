@@ -1,0 +1,14 @@
+.inputContainer{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.inputContainer input{
+    width: 80%;
+    height: 20px;
+}
+.inputContainer button{
+    height: 25px;
+    padding: 2px;
+}

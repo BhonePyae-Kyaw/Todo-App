@@ -1,0 +1,16 @@
+.header-box{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: rgb(210, 151, 235);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .date-container{
+    height: 100px;
+    width: 100%;
+  }
