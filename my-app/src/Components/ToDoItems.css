@@ -1,3 +1,18 @@
 .checked{
     text-decoration: line-through;
 }
+.todoitem-container{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-size: larger;
+}
+.delete-btn{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(122, 123, 123);
+}
+.checkbox-btn{
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}

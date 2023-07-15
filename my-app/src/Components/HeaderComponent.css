@@ -1,16 +1,26 @@
 .header-box{
-    width: 100%;
-    height: auto;
-    min-height: 200px;
-    background-color: rgb(210, 151, 235);
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  min-height: 180px;
+  background-color: rgb(210, 151, 235);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.date-container{
+  width: 100%;
+}
+.date-container p {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgb(209, 237, 237);
+}
+@media (min-width: 768px) {
+  .header-box{
+    min-height: 320px;
   }
-  .date-container{
-    height: 100px;
-    width: 100%;
-  }
+}

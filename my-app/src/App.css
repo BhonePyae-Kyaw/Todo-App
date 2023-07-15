@@ -1,9 +1,58 @@
 .App{
-  max-width: 600px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(212, 216, 216);
+}
+.todoapp-container{
+  background-color: rgb(209, 232, 232);
+  overflow-y: scroll;
+  height: 100vh;
 }
 .todoItemContainer{
-  background-color: aqua;
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(165, 233, 235);
+  box-shadow: 2px 4px 3px rgb(149, 185, 189);
+  
 }
+.todoItemContainerFinish{
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(231, 239, 240);
+  box-shadow: 2px 4px 3px rgb(185, 182, 182);
+}
+.progress-bar{
+  margin: 10px 20px;
+  max-width: 800px;
+  width: 100%;
+}
+.progress-container{
+  display: grid;
+  grid-template-columns: 30% 50%;
+  justify-content: start;
+  align-items: center;
+}
+.progress-container p{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px;
+  text-align: right;
+  color: rgb(62, 61, 61);
+}
+.disappear{
+  display: none;
+}
+.add-line{
+  margin: 10px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(62, 61, 61);
+}
+
 
 
 
