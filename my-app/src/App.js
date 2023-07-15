@@ -102,7 +102,7 @@ function App() {
         <HeaderComponent backgroundImg = {backgroundImg} timePeriod = {timePeriod} date={date} />
         <AddItemComponent setTodoItem={setTodoItem} addItem={addItem} ref1={ref}/>
         <div className='progress-container'>
-          <p>Your Progress: </p>
+          <p>Progress: </p>
           <ProgressBar 
             completed={progPercent} 
             className='progress-bar'

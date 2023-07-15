@@ -27,11 +27,11 @@
 }
 .progress-bar{
   margin: 10px 20px;
-  max-width: 800px;
+  max-width: 700px;
   width: 100%;
 }
 .progress-container{
-  display: grid;
+  display: flex;
   grid-template-columns: 30% 50%;
   justify-content: start;
   align-items: center;
@@ -39,7 +39,7 @@
 .progress-container p{
   font-size: 12px;
   font-weight: 500;
-  margin: 10px;
+  margin: 10px 20px;
   text-align: right;
   color: rgb(62, 61, 61);
 }
