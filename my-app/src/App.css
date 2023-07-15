@@ -37,7 +37,7 @@
   align-items: center;
 }
 .progress-container p{
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   margin: 10px 20px;
   text-align: right;
@@ -48,11 +48,16 @@
 }
 .add-line{
   margin: 10px 20px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: rgb(62, 61, 61);
 }
-
+.complete-line{
+    margin: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(62, 61, 61);
+}
 
 
 

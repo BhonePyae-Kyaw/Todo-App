@@ -1,6 +1,6 @@
 import React from 'react'
 import './ToDoItems.css'
-import { RiDeleteBackLine } from "react-icons/ri";
+import { AiOutlineDelete } from "react-icons/ai";
 
 export default function ToDoItemsComponent({todo, index, finishTask, deleteTodo}) {
   return (
@@ -15,7 +15,7 @@ export default function ToDoItemsComponent({todo, index, finishTask, deleteTodo}
         <span className={`${todo.done ? 'checked' : ''}`}>{todo.todoItem}</span>
       </div>
       <div onClick={() => deleteTodo(index)}>
-        <span className='delete-btn'><RiDeleteBackLine /></span>  
+        <span className='delete-btn'><AiOutlineDelete /></span>  
       </div>
     </div>
     

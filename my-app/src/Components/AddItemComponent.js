@@ -13,8 +13,6 @@ export default function AddItemComponent({setTodoItem, ref1, addItem}) {
           placeholder='Add a todo to your list:  ' 
           onChange={(e) => setTodoItem(e.target.value)}
           ref = {ref1} 
-          aria-label="Recipient's username" 
-          aria-describedby="basic-addon2"
         />
         <div className="input-group-append">
           <span 
