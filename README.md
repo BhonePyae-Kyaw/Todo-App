@@ -2,7 +2,7 @@
 Todo app for d code lab application, Assumption University of Thailand.
 
 ## Features
-User can add a todo task.
+User can add a todo task. /n
 User can check as completed.
 User can delete the task.
 The amount of tasks done will be counted.
