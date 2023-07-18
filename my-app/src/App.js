@@ -18,7 +18,7 @@ function App() {
   const [todoItem, setTodoItem] = useState("");
   const [todoList, setTodoList] = useState([]);
   const [checked] = useState(false);
-  const [progPercent, setProgPercent] = useState(1);
+  const [progPercent, setProgPercent] = useState(0);
   const [date, setDate] = useState()
   const [timePeriod, setTimePeriod] = useState()
   const [backgroundImg, setBackgroundImg] = useState();
