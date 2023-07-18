@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect, useRef } from 'react';
 
 //images
-import morningPic from './img/morning.png'
+import morningPic from './img/morning2.jpg'
 import nightPic from './img/night.jpg'
 
 //components
